@@ -1,0 +1,1 @@
+DROP TABLE should_not_be_checked2;
