@@ -1,1 +1,2 @@
 CREATE TABLE IF NOT EXISTS renamed_src (id uuid PRIMARY KEY);
+ALTER TABLE renamed_src DROP COLUMN foo;
