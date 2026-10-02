@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS renamed_src (id uuid PRIMARY KEY);
