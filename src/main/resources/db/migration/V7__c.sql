@@ -1,1 +1,1 @@
-DROP TABLE c;
+-- removed dangerous drop
