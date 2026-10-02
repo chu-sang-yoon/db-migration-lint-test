@@ -69,7 +69,8 @@ jobs:
 
       - name: squawk PR 코멘트
         if: >-
-          steps.bypass.outputs.skip != 'true' && steps.diff.outputs.files != ''
+          (success() || failure())
+          && steps.bypass.outputs.skip != 'true' && steps.diff.outputs.files != ''
           && github.event.pull_request.head.repo.full_name == github.repository
         continue-on-error: true
         env:
