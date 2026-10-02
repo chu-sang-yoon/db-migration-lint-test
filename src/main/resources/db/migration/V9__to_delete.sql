@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS to_delete (id uuid PRIMARY KEY);
