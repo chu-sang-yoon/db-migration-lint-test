@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS clean_sample (id uuid PRIMARY KEY);
